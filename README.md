@@ -14,9 +14,15 @@ Xoá dòng /build trong .gitignore:
 
 ## Bước 4
 
-Chạy lệnh: `git add build && git commit -m "Add build folder to deploy"`
+Vào package.json và thêm "homepage": "./":
+
+![package.json file](https://user-images.githubusercontent.com/87081336/145741710-9fe610b3-02e4-4048-bfeb-ca3d3ad45a79.png)
 
 ## Bước 5
+
+Chạy lệnh: `git add build && git commit -m "Add build folder to deploy"`
+
+## Bước 6
 
 Push thư mục build lên nhánh gh-pages trên github:
 
